@@ -30,7 +30,6 @@ class EmpleadoPlanta extends Empleado {
     @Override
     public void mostrarInformacion() {
         super.mostrarInformacion();
-        // Versión sin comodines (%s, %d, etc.)
         System.out.println("Cargo         : " + cargo);
         System.out.println("Horas Extra   : " + horasExtra + "  ($" + valorHoraExtra + " c/u)");
         System.out.println("Aux.Transporte: $" + auxilioTransporte);
