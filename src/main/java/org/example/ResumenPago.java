@@ -14,9 +14,7 @@ record ResumenPago(
                 "Tipo         : " + tipoEmpleado + "\n" +
                 "Salario Bruto: $" + salarioBruto + "\n" +
                 "Descuentos   : $" + descuentos + "\n" +
-                "Salario Neto : $" + salarioNeto + "\n" +
-                ;
+                "Salario Neto : $" + salarioNeto + "\n";
     }
-        );
     }
-}
+
